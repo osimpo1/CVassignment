@@ -1,3 +1,5 @@
+const fout = document.getElementById('filot');
+
 function submitToCv(){
     const fname = document.getElementById('fname').value;
     const mname = document.getElementById('mname').value;
@@ -30,4 +32,4 @@ window.addEventListener('load' ,() => {
     document.getElementById('cv-address').innerHTML = PO;
     document.getElementById('cv-number').innerHTML = number;
     document.getElementById('cv-mail').innerHTML = mail;
-}
+})
