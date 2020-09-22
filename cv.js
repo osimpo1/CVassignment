@@ -28,8 +28,21 @@ window.addEventListener('load' ,() => {
     const number = localStorage.getItem('NUMBER');
     const mail = localStorage.getItem('MAIL');
 
-    document.getElementById('cv-name').innerHTML = fname + mname + lname;
+    document.getElementById('cv-name').innerHTML = fname +" " + mname +" " + lname;
     document.getElementById('cv-address').innerHTML = PO;
     document.getElementById('cv-number').innerHTML = number;
     document.getElementById('cv-mail').innerHTML = mail;
 })
+
+function formValidate(){
+    const fname = document.getElementById('fname').value;
+    const mname = document.getElementById('mname').value;
+    const lname = document.getElementById('lname').value;
+    const number = document.getElementById('number').value;
+    const mail = document.getElementById('mail').value;
+    const PO = document.getElementById('PO').value;
+
+      
+
+}
+
