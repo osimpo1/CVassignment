@@ -28,7 +28,6 @@ h2{
   text-align: center;
   font-size: 14pt;
   font-family: Verdana;
-
 }
 
 p{
@@ -49,11 +48,12 @@ h5{
 p.up{
   text-align: center;
 }
+
 body.one{
   background-color: lightgoldenrodyellow;
   font-weight: bold;
-  
 }
+
 content{
   margin: auto;
   max-width: 500px;

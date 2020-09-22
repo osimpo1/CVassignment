@@ -6,12 +6,12 @@
         <h1 class ="sett"> CV Form</h1>
     </div>
     </head>
-    
+
     <body class="one">
         <h2> Kindly Fill In Your Details To Update Your CV</h2>
         
     <div class ="input">
-        <form>
+        <form action="cv.html" method="GET">
             
             <label for= "fname">First Name(s)</label><br>
             <input type="text" required id ="fname" name="fname"><br>
@@ -38,8 +38,9 @@
             <label for= "PO">Postal Address </label><br>
             <input type="text" required id ="PO" name="PO"><br>
 
-            <button type="submit">Submit</button>
+            <a href="cv.html"><button type="submit" onclick="submitToCv()">Submit</button></a>
         </form>
     </div>
     </body>
+    <script type="text/javascript" src="cv.js"></script>
 </html>
